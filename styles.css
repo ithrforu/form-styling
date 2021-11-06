@@ -1,0 +1,92 @@
+body {
+	background-color: #fff;
+	color: #333;
+	font: 1em/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	padding: 1em;
+	margin: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+form {
+	margin: 0 auto;
+	width: 335px;
+	height: 600px;
+	padding: 1em;
+	border: 1px solid #ccc;
+	border-radius: 1em;
+	background: url('images/background.png') no-repeat 0 0 / cover;
+}
+
+h2 {
+	margin: 40px auto 20px;
+	width: 82%;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 70%;
+	margin: 0 auto;
+}
+
+li + li {
+	margin-top: 20px;
+}
+
+label, h2 {
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+}
+
+label:not([for="food"]) {
+	display: block;
+}
+
+li:nth-of-type(4) {
+	width: max-content;
+	margin: 20px auto 0;
+}
+
+input, button {
+	font-size: 100%;
+	font-family: inherit;
+}
+
+input {
+	background: none;
+	border: 0;
+	border-bottom: 1px solid #fff;
+	color: #fff;
+}
+
+input:active, input:focus, select, select:focus {
+	outline: none;
+	background-color: rgba(0,0,0,.1);
+	border: 1px solid #fff;
+	border-radius: 5px;
+}
+
+button {
+	display: block;
+	margin: 30px auto;
+	border-radius: 15px;
+	border: 1px solid #fff;
+	background-color: rgba(241,31,117,.9);
+	color: #fff;
+	padding: 10px;
+	box-shadow: 1px 1px 2px #ccc;
+}
+
+button:focus, button:hover {
+	box-shadow: -1px -1px 2px #ccc;
+	background-color: rgb(241,31,117);
+}
+
+button:active {
+	border: 1px solid #000;
+	text-shadow: 1px 1px 1px #000;
+}
